@@ -1,6 +1,5 @@
-
-
-div #hein {
-	background: red !important;
-	height: 500px !important;
+.fixed-me {
+	background: red;
+	height: 100px;
+	width: 60%;
 }
