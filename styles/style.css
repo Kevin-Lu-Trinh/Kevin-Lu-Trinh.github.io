@@ -1,3 +1,7 @@
+header {
+	height: 0px;
+	width: 100%;
+}
 .fixed-me {
 	background: red;
 	height: 100px;
