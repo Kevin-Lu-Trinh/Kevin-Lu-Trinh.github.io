@@ -15,6 +15,7 @@
   <body>
     <header id="home"></header>
 
+    <!-- Nav Bar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <a class="navbar-brand" href="#"> Golf Saint-Benjamin </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +30,10 @@
             <a class="nav-link" href="#news"> Nouvelles </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#trips"> Parcours </a>
+            <a class="nav-link" href="#courses"> Parcours </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#payments"> Tarifs </a>
+            <a class="nav-link" href="#costs"> Tarifs </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#contact"> Contact </a>
@@ -41,7 +42,7 @@
       </div>
     </nav>
 
-    <!-- @Kevin: update to relevant content -->
+    <!-- Carousel Content -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -82,34 +83,16 @@
       </div>
     </div>
 
-    <div class="container marketing">
-      <div class="row" id ="news">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-  
-      <div class="row featurette" id="trips">
+    <!-- News x 3 -->
+    <div class="container marketing" id="news">
+      <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">First featurette heading. 
+            <span class="text-muted">It'll blow your mind.</span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -120,8 +103,12 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Oh yeah, it's that good.
+            <span class="text-muted">See for yourself.</span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -132,8 +119,12 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">And lastly, this one. 
+            <span class="text-muted">Checkmate.</span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -144,8 +135,12 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Nah <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Nah 
+            <span class="text-muted">See for yourself.</span>
+          </h2>
+          <p class="lead">
+            Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+          </p>
         </div>
         <div class="col-md-5 order-md-1">
           <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -153,21 +148,85 @@
       </div>
 
       <hr class="featurette-divider">
-
-      <div class="container" id="payments">
-        <div class="fixed-me" id="fixed-me"> fwef </div>
-      </div>
-
-      <div class="container" id="contact">
-        <div class="fixed-me" id="fixed-me"> fwef </div>
-      </div>
-
-      <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
     </div>
+
+    <!-- Golf Courses -->
+    <div class="container" id="courses">
+      <br><br><br>
+      <div class="jumbotron">
+        <h1>Parcours</h1>
+        <p>This example is a quick exercise to illustrate how the default, static navbar and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 course-box"> 1 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 2 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 3 </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 course-box"> 4 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 5 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 6 </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 course-box"> 7 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 8 </div>
+        <div class="col-lg-4 col-md-6 course-box"> 9 </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <!-- Costs + Map -->
+    <div class="container" id="costs">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 cost-box"> 1 </div>
+        <div class="col-lg-6 col-md-6 map-box"> 2 </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </div>
+
+    <!-- Contact -->
+    <div class="container" id="contact">
+      <br><br><br>
+      <div class="contact-grid-content">
+        <div class="contact-form">
+            <div class="contact-description">
+                <h1> 
+                    get in touch. i can help.
+                </h1>
+                <p id="text-box-2">
+                    If you have a project in mind and like my work style, then please do not hesitate to contact me!
+                </p>
+            </div>
+            <form action="https://formspree.io/henry.zhao@mail.mcgill.ca" method="POST">
+                <div class="name-email-group">
+                    <label>
+                        <span id="email"> Name </span>
+                        <input type="text" name="name" id="input">
+                    </label>
+                    <label>
+                        <span id="email"> Email </span>
+                        <input type="email" name="_replyto" id="input">
+                    </label>
+                </div>
+                <label>
+                    <span id="email"> Message </span>
+                    <textarea name="message" rows="10"></textarea>
+                </label>
+                <div class="submit-wrap">
+                    <label>
+                        <input type="submit" value="LET'S CHAT" id="button">
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+
+    <footer class="container marketing">
+      <p>&copy; 2017 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

@@ -1,9 +1,105 @@
 header {
-	height: 0px;
+	height: 5px;
 	width: 100%;
 }
-.fixed-me {
-	background: red;
-	height: 100px;
+.container.marketing {
+	padding: 65px 0px 0px 0px;
+}
+.course-box {
+	padding: 20px;
+	height: 350px;
+	border: 1px solid black;
+}
+.cost-box {
+	padding: 20px;
+	height: 650px;
+	border: 1px solid black;
+}
+.map-box {
+	padding: 20px;
+	height: 650px;
+	border: 1px solid black;
+}
+.contact-grid-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 	width: 60%;
+}
+.contact-description {
+	text-align: center;
+	margin-bottom: 40px;
+}
+form {
+	width: 80%;
+}
+.name-email-group label {
+	float: left;
+	width: 48%;
+	margin-right: 2%;
+}
+label, #email {
+	display: block;
+	margin-bottom: 20px;
+}
+#email {
+	font-size: 120%;
+	font-weight: bold;
+}
+#input, textarea {
+	border: 3px solid #262626;
+	width: 96%;
+	padding: 10px;
+	font-size: 80%;
+}
+#input:focus, textarea:focus {
+	outline: none;
+	border-color: #660000;
+}
+#button {
+	cursor: pointer;
+	background: #262626;
+	color: #fff;
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 120%;
+	transition: 0.5s;
+	border: 3px solid #262626;
+	padding: 10px;
+	outline: none;
+}
+#button:hover {
+	transform: scale(1.05);
+	background: #660000;
+	border: 3px solid #660000;
+
+}
+.submit-wrap {
+	text-align: center;
+	width: 25%;
+}
+#text-box-2 {
+	font-size: 100%;
+	color: #404040;
+}
+/** Media Queries **/
+@media screen and (max-width: 768px) {
+	.contact-grid-content {
+		height: 95%;
+	}
+	.contact-form {
+		width: 100%;
+	}
+	.submit-wrap {
+		width: 45%;
+	}
 }
