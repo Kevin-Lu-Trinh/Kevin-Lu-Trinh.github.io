@@ -91,6 +91,15 @@ label, #email {
 	font-size: 100%;
 	color: #404040;
 }
+.map-box {
+	display: flex;
+	align-items: center;
+}
+#map {
+	height: 80%;
+	width: 100%;
+	background: blue;
+}
 /** Media Queries **/
 @media screen and (max-width: 768px) {
 	.contact-grid-content {
