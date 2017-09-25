@@ -63,25 +63,24 @@ label, #email {
 }
 #input:focus, textarea:focus {
 	outline: none;
-	border-color: #660000;
+	border-color: #38471f;
 }
 #button {
 	cursor: pointer;
-	background: #262626;
+	background: #1c2310;
 	color: #fff;
 	text-transform: uppercase;
 	width: 100%;
 	font-size: 120%;
 	transition: 0.5s;
-	border: 3px solid #262626;
+	border: 3px solid #1c2310;
 	padding: 10px;
 	outline: none;
 }
 #button:hover {
 	transform: scale(1.05);
-	background: #660000;
-	border: 3px solid #660000;
-
+	background: #38471f;
+	border: 3px solid #38471f;
 }
 .submit-wrap {
 	text-align: center;
@@ -99,6 +98,16 @@ label, #email {
 	height: 80%;
 	width: 100%;
 	background: blue;
+}
+.fa {
+	font-size: 150%;
+	padding: 0px 15px 0px 15px;
+	color: #fff;
+	transition: 0.5s;
+}
+.fa:hover {
+	color: #999999;
+	transform: scale(1.2);
 }
 /** Media Queries **/
 @media screen and (max-width: 768px) {
