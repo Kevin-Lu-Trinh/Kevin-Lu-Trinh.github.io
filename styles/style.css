@@ -11,14 +11,34 @@ header {
 	border: 1px solid black;
 }
 .cost-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	padding: 20px;
 	height: 650px;
-	border: 1px solid black;
+	background: #333333;
+	color: #fff;
+}
+.cost-title {
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	font-size: 150%;
+	text-decoration: underline;
+}
+.cost-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: lighter;
+	height: 90%;
+	width: 100%;
+	font-size: 200%;
 }
 .map-box {
 	padding: 20px;
 	height: 650px;
-	border: 1px solid black;
 }
 .contact-grid-content {
 	display: flex;
@@ -92,22 +112,40 @@ label, #email {
 }
 .map-box {
 	display: flex;
+	flex-direction: column;
 	align-items: center;
+}
+#address-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+	height: 10%;
+	width: 100%;
+}
+#address-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	padding: 10px;
 }
 #map {
 	height: 80%;
 	width: 100%;
-	background: blue;
 }
-.fa {
+.fa-home, .fa-newspaper-o, .fa-map-signs, .fa-shopping-cart, .fa-envelope-o {
 	font-size: 150%;
 	padding: 0px 15px 0px 15px;
 	color: #fff;
 	transition: 0.5s;
 }
-.fa:hover {
-	color: #999999;
-	transform: scale(1.2);
+.fa-home:hover, .fa-newspaper-o:hover, .fa-map-signs:hover, .fa-shopping-cart:hover, .fa-envelope-o:hover {
+	color: #70a970;
+	transform: scale(1.4);
 }
 /** Media Queries **/
 @media screen and (max-width: 768px) {
