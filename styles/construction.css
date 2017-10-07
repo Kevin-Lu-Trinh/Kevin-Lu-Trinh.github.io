@@ -49,6 +49,7 @@ html {
 }
 .allo {
 	font-size: 110px;
+	color: #264040;
 }
 .box {
 	display: inline-block;
@@ -63,6 +64,7 @@ html {
 	opacity: 0;
 	font-size: 30px;
 	font-weight: lighter;
+	color: #1d3030;
 }
 @keyframes animate {
 	0% {
