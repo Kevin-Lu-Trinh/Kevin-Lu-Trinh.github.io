@@ -9,9 +9,11 @@ body {
 .carousel-caption {
   z-index: 10;
   bottom: 3rem;
+  color: black;
 }
 .carousel .carousel-item {
   height: 750px;
+  width: 100%;
 }
 .carousel-item img {
     position: absolute;
