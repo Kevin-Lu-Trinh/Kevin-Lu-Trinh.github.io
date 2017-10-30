@@ -1,0 +1,23 @@
+.title {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+	font-weight: lighter;
+	font-size: 35px;
+}
+.slide1 {
+	background: url('../img/test3.jpg') no-repeat;
+	background-size: cover;
+}
+.slide2 {
+	background: url('../img/test4.jpg') no-repeat;
+	background-size: cover;
+}
+.slide3 {
+	background: url('../img/test5.jpg') no-repeat;
+	background-size: cover;
+}
